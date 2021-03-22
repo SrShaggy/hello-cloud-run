@@ -9,7 +9,7 @@ COPY package*.json ./
 
 RUN npm install --only=production
 
-# Copy the local code to the container
+# Copy the local code to the container d
 COPY . .
 
 # Build production app
